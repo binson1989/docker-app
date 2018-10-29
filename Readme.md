@@ -1,0 +1,8 @@
+- Get image from docker hub repository, for e.g. node image
+- docker build . -t node:latest(repo name:tag name)
+- Run 'docker images' to see list of images created
+- docker run 'image-id', this will start the container and immediately stop it as there is no process running
+- To start shell process in container- docker run -it 'image-id' /bin/sh
+- docker ps - shows list of running containers
+- docker stop 'container-id'
+- docker run -p 8000:8000 -it d81f202b089d node server.js
